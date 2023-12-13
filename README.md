@@ -35,7 +35,7 @@ devtools::install_github("gtonkinhill/fastbaps", build_vignettes = TRUE)
 
 Fastbaps includes a number of options for the Dirichlet prior
 hyperparamters. These range in order from most conservative to least as
-`symmetric`, `baps`, `optimised.symmetric` and `optimised.baps`. The
+`symmetric`, `baps`, `optimise.symmetric` and `optimise.baps`. The
 choice of prior can be set using the `optimise_prior` function.
 
 It is also possible to condition on a pre-existing phylogeny, which
