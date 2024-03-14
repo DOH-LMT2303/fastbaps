@@ -112,7 +112,7 @@ The algorithm has been written to take advantage of fast sparse matrix
 libraries and is able to handle 1000’s of sequences and 100,000’s of
 SNPs in under an hour on a laptop using a single core.
 
-Alternatively, we can condition on an initial phylogentic or
+Alternatively, we can condition on an initial phylogenetic or
 hierarchical tree and provide the partition of the hierarchy that
 maximises the BAPS likelihood. This is useful if the user is mainly
 interested in partitioning an already calculated phylogeny. We have also
